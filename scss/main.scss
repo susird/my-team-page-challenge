@@ -6,33 +6,33 @@
 }
 
 .container {
-  padding: 71px 20px 0 20px;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  padding: 71px 20px 0 20px;
 }
 
 .creative-crew-title {
-  width: 278px;
-  height: 47px;
   font-family: $first-font;
   font-size: 36px;
-  line-height: 48px;
-  letter-spacing: -0.72px;
+  height: 47px;
   margin-bottom: 38px;
+  letter-spacing: -0.72px;
+  line-height: 48px;
+  width: 278px;
 }
 
 .we-are-title {
-  width: 117px;
-  height: 27px;
   font-family: $second-font;
   font-size: 18px;
-  text-transform: uppercase;
+  height: 27px;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  width: 117px;
 }
 
 .information-team {
   font-family: $second-font;
-  height: 87px;
   font-size: 14px;
+  height: 87px;
   width: 333px;
 }
