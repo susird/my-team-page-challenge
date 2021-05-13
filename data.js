@@ -6,11 +6,13 @@ export const data = {
   },
 
   "team-member-section": {
-    "team-member-card": {
-      "image": "/home/susanar/Documentos/Programacion_2021_1/Layouts/my-team-page/photo4.png",
-      "name-title": "Skylah Lu",
-      "charge-text": "UX DESIGNER"
-    }
+    "team-member-card": [
+      {
+        "image": "/home/susanar/Documentos/Programacion_2021_1/Layouts/my-team-page/photo4.png",
+        "name-title": "Skylah Lu",
+        "charge-text": "UX DESIGNER"
+      }
+    ]
   },
 
   "footer": {
