@@ -7,32 +7,32 @@ export const data = {
   "team-member-section": {
     "team-member-card": [
       {
-        "image": "/home/susanar/Documentos/Programacion_2021_1/Layouts/my-team-page/photo1.png",
+        "image": "../photo1.png",
         "name-title": "Bill Mahoney",
         "charge-text": "PRODUCT OWNER"
       },
       {
-        "image": "/home/susanar/Documentos/Programacion_2021_1/Layouts/my-team-page/photo2.png",
+        "image": "../photo2.png",
         "name-title": "Saba Cabrera",
         "charge-text": "ART DIRECTOR"
       },
       {
-        "image": "/home/susanar/Documentos/Programacion_2021_1/Layouts/my-team-page/photo3.png",
+        "image": "../photo3.png",
         "name-title": "Shae Le",
         "charge-text": "TECH LEAD"
       },
       {
-        "image": "/home/susanar/Documentos/Programacion_2021_1/Layouts/my-team-page/photo4.png",
+        "image": "../photo4.png",
         "name-title": "Skylah Lu",
         "charge-text": "UX DESIGNER"
       },
       {
-        "image": "/home/susanar/Documentos/Programacion_2021_1/Layouts/my-team-page/photo5.png",
+        "image": "../photo5.png",
         "name-title": "Griff Richards",
         "charge-text": "DEVELOPER"
       },
       {
-        "image": "/home/susanar/Documentos/Programacion_2021_1/Layouts/my-team-page/photo6.png",
+        "image": "../photo6.png",
         "name-title": "Stan John",
         "charge-text": "DEVELOPER"
       }
