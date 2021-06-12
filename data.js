@@ -1,8 +1,8 @@
 export const data = {
   "header": {
-    "titleTeam": "The creative crew",
-    "descriptionTeamTitle": "Who we are",
-    "descriptionTeamText": "We are a team of creatively diverse-driven innovative individuals working in various locations from the world."
+    "headerTitle": "The creative crew",
+    "teamTitle": "Who we are",
+    "teamDescription": "We are a team of creatively diverse-driven innovative individuals working in various locations from the world."
   },
   "team-member-section": {
     "team-member-card": [
