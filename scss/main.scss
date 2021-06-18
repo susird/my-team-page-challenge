@@ -9,38 +9,34 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 71px 20px 0 20px;
 }
 
 .header-container {
   display: flex;
   flex-direction: column;
-  padding: 71px 85px 0 12px;
+  padding: 71px 15px 38px 15px;
 
   & .header-title {
     color: $primary-color;
     font-family: $font-tittle;
     font-size: 36px;
+    font-weight: 700;
     letter-spacing: -0.72px;
     margin-bottom: 38px;
-    width: 303px;
   }
 
   & .team-title{
     color: $primary-color;
     font-family: $font-description;
     font-size: 18px;
-    font-weight: 600;
     margin-bottom: 10px;
     text-transform: uppercase;
-    width: 117px;
   }
 
   & .team-description {
     color: $primary-color;
     font-family: $font-description;
     font-size: 14px;
-    height: 27px;
-    width: 333px;
+    line-height: 20px;
   }
 }
