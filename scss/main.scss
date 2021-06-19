@@ -40,3 +40,20 @@
     line-height: 20px;
   }
 }
+
+@media (min-width: 960px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 110px 265px 96px 265px;
+
+    & .team-title{
+      align-self: flex-start;
+    }
+
+    & .team-description {
+      align-self: flex-end;
+    }
+  }
+}
+
