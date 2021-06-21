@@ -8,6 +8,9 @@ export function createHeader() {
   const crewTittle = document.createElement('h1');
   crewTittle.className = 'header-title';
   crewTittle.textContent = headerTitle;
+  
+  const containerTeam = document.createElement('div');
+  containerTeam.className = 'container-crew';
 
   const whoWeAreTitle = document.createElement('h3');
   whoWeAreTitle.className = 'team-title';
@@ -18,8 +21,9 @@ export function createHeader() {
   crewDescription.textContent = teamDescription;
 
   headerElement.appendChild(crewTittle);
-  headerElement.appendChild(whoWeAreTitle);
-  headerElement.appendChild(crewDescription);
+  containerTeam.appendChild(whoWeAreTitle);
+  containerTeam.appendChild(crewDescription);
+  headerElement.appendChild(containerTeam);
 
   return headerElement;
 }

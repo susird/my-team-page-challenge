@@ -25,19 +25,25 @@
     margin-bottom: 38px;
   }
 
-  & .team-title{
-    color: $primary-color;
-    font-family: $font-description;
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-  }
+  & .container-crew {
+    display: flex;
+    flex-direction: column;
 
-  & .team-description {
-    color: $primary-color;
-    font-family: $font-description;
-    font-size: 14px;
-    line-height: 20px;
+    & .team-title {
+      color: $primary-color;
+      font-family: $font-description;
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    & .team-description {
+      color: $primary-color;
+      font-family: $font-description;
+      font-size: 14px;
+      line-height: 20px;
+      width: 348px;
+    }
   }
 }
 
@@ -45,15 +51,10 @@
   .header-container {
     flex-direction: row;
     justify-content: space-between;
-    padding: 110px 265px 96px 265px;
+    padding: 110px 243px 96px 243px;
 
-    & .team-title{
-      align-self: flex-start;
-    }
-
-    & .team-description {
-      align-self: flex-end;
+    & .container-crew {
+      flex-direction: column;
     }
   }
 }
-
