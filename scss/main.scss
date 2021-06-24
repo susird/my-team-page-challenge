@@ -1,3 +1,5 @@
+@import "styles";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,5 +9,49 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 71px 20px 0 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 20px;
+  color: $primary-color;
+
+  & .header-title {
+    font-family: $font-tittle;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    margin-bottom: 38px;
+  }
+
+  & .container-crew {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-description;
+
+    & .team-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    & .team-description {
+      font-size: 14px;
+      line-height: 20px;
+      width: 348px;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 240px;
+
+    & .container-crew {
+      flex-direction: column;
+    }
+  }
 }
