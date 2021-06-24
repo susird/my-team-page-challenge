@@ -14,7 +14,7 @@
 .header-container {
   display: flex;
   flex-direction: column;
-  padding: 71px 15px 38px 15px;
+  padding: 70px 20px;
   color: $primary-color;
 
   & .header-title {
@@ -48,7 +48,7 @@
   .header-container {
     flex-direction: row;
     justify-content: space-between;
-    padding: 110px 243px 96px 243px;
+    padding: 100px 240px;
 
     & .container-crew {
       flex-direction: column;
